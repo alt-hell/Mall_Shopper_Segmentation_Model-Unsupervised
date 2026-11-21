@@ -20,7 +20,7 @@ A complete unsupervised learning pipeline that segments 200 mall customers into 
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/mall-shopper-segmentation-unsupervised-learning.git
+git clone https://github.com/alt-hell/mall-shopper-segmentation-unsupervised-learning.git
 cd mall-shopper-segmentation-unsupervised-learning
 
 # 2. Install dependencies
@@ -73,8 +73,8 @@ mall-shopper-segmentation-unsupervised-learning/
 
 ## 🎥 Video Walkthrough
 
-📽️ **[Watch the recorded walkthrough here](#)**  
-*(Upload your video to YouTube/Google Drive and paste the link here)*
+📽️ **not available yet :)**  
+
 
 ---
 
@@ -87,10 +87,4 @@ mall-shopper-segmentation-unsupervised-learning/
 - **5D feature clustering** (adding Age + Gender) gives richer personas but slightly lower Silhouette Score due to added dimensionality.
 
 ---
-
-## 🚀 Next Steps
-
-- Integrate footfall sensor data and loyalty app transaction history for behavioral clustering
-- Build a real-time persona tagging API for the mall mobile app
-- Explore semi-supervised methods when partial customer labels become available
 
