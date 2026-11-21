@@ -1,8 +1,8 @@
 # Summary Report — Mall Shopper Profiling (Unsupervised Learning)
 
-**Author:** [Your Name] | Junior Data Scientist  
+**Author:** Sohail Ansari |  Data Scientist  
 **Date:** November 2026  
-**Organization:** Retail Analytics Team — Phoenix Marketcity / Nexus Malls
+**Organization:** RED And White Skill Education
 
 ---
 
@@ -58,17 +58,3 @@ The 2D feature set was chosen as the primary because (a) it aligns directly with
 | **C4** | 🛒 Moderate Mainstream | Medium (~55k\$) | Medium (~50) | ~43 yrs | The typical Indian mall visitor. Responds well to seasonal and festive campaigns. |
 
 ---
-
-## 5. What Would I Do Next?
-
-1. **Richer Behavioural Data:** Integrate footfall sensors (visit frequency, dwell time per zone), loyalty app purchase history (category-level spend), and payment gateway data (basket size, payment method) to build behavioural rather than purely demographic clusters.
-
-2. **Semi-Supervised Methods:** Once store managers manually tag a few hundred customers by persona, use **label propagation** or **self-training** to extend labels to the full customer base — bridging unsupervised discovery and supervised business logic.
-
-3. **Real-Time Persona Tagging API:** Deploy the `classify_shopper()` function as a Flask/FastAPI microservice called by the mall app at login. Feed cluster label and persona back to the in-app rewards engine for personalized offers within seconds of the customer's arrival.
-
-4. **Temporal Clustering:** Track how customers migrate between segments across festive seasons (Diwali, New Year) using Dynamic Time Warping or hidden Markov models to predict churn from premium to moderate segments.
-
----
-
-*Report length: ~480 words*
